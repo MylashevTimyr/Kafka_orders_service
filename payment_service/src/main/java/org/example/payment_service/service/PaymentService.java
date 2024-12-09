@@ -2,7 +2,7 @@ package org.example.payment_service.service;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.example.orders_service.dto.OrderDTO;
+import org.example.dto.OrderDTO;
 import org.example.payment_service.mapper.OrderMapper;
 import org.example.payment_service.model.Order;
 import org.example.payment_service.repository.OrderRepository;

@@ -2,7 +2,7 @@ package org.example.notification_service.mapper;
 
 import lombok.experimental.UtilityClass;
 import org.example.notification_service.model.Order;
-import org.example.orders_service.dto.OrderDTO;
+import org.example.dto.OrderDTO;
 
 @UtilityClass
 public class OrderMapper {

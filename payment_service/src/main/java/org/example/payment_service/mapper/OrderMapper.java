@@ -1,7 +1,7 @@
 package org.example.payment_service.mapper;
 
 import lombok.experimental.UtilityClass;
-import org.example.orders_service.dto.OrderDTO;
+import org.example.dto.OrderDTO;
 import org.example.payment_service.model.Order;
 
 @UtilityClass

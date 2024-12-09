@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.example.notification_service.mapper.OrderMapper;
 import org.example.notification_service.model.Order;
 import org.example.notification_service.repository.OrderRepository;
-import org.example.orders_service.dto.OrderDTO;
+import org.example.dto.OrderDTO;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

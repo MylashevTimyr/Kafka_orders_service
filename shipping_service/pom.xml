@@ -74,8 +74,8 @@
 
         <dependency>
             <groupId>org.example</groupId>
-            <artifactId>orders_service</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <artifactId>dtoOrders</artifactId>
+            <version>0.0.1</version>
         </dependency>
     </dependencies>
 
