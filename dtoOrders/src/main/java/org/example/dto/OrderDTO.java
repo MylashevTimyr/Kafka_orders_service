@@ -11,6 +11,8 @@ public class OrderDTO implements Serializable {
     private BigDecimal amount;
     private String status;
 
+    public OrderDTO() {}
+
     public OrderDTO(UUID id, String itemId, String userId, BigDecimal amount, String status) {
         this.id = id;
         this.itemId = itemId;
@@ -59,7 +61,6 @@ public class OrderDTO implements Serializable {
         this.status = status;
     }
 
-    // Метод toString()
     @Override
     public String toString() {
         return "OrderDTO{" +
